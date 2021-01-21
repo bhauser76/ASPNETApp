@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment #1</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="icon" href="img/clown.png"
+          type="image/x-icon">
+</head>
+<body>
+    <!--Header with the name I would like to be called-->
+    <header>
+        <h2>Ben Hauser</h2>
+    </header>
+
+    <section>
+        <!--Nav content-->
+        <nav>
+            <p>Welcome to my simple ASP.NET website</p>
+        </nav>
+
+        <article>
+            <!--Image of myself ice fishing-->
+            <br />
+            <img src="img/fishing.jpeg" />
+            <br />
+            <!--Expecations paragraph-->
+            <h1>Expectations for IS 413</h1>
+            <p>
+                There are many things that I would like to learn from this course. I would love to learn how to use API's efficiently
+                so that my websites are responsive and accurate at all times. I expect to learn how to efficiently create an entire application
+                from back-end to front-end and be able to use these skills at my current workplace. Last semester, we did not get around to learning about
+                site security with python/django so I hope to learn and apply that skill well with this semester's material.
+            </p>
+            <!--Top three jobs section/list-->
+            <h3>Top Three Jobs Post-Graduation</h3>
+            <ol>
+                <li>Financial Data Analyst</li>
+                <li>Junior Software Developer at a Startup</li>
+                <li>Freelance Ecommerce Developer</li>
+            </ol>
+            <br />
+            <!--Grade calculator using a form and some text input boxes. Alerts user with a pop up message after pushing button-->
+            <fieldset>
+                <legend>Grade Calculator <i> (Please enter a number between 0 and 100)</i></legend>
+                <form>
+                    <label for="Assignment">Assignments (50%): </label>
+                    <input id="Assignment" type="text" />
+                    <br />
+                    <label for="Group">Group Projects (10%): </label>
+                    <input id="Group" type="text" />
+                    <br />
+                    <label for="Quiz">Quizzes (10%): </label>
+                    <input id="Quiz" type="text" />
+                    <br />
+                    <label for="Exam">Exams (20%): </label>
+                    <input id="Exam" type="text" />
+                    <br />
+                    <label for="Intex">INTEX (10%): </label>
+                    <input id="Intex" type="text" />
+                    <br />
+                    <!--Submit button that calculates grade-->
+                    <button type="submit" onclick="Grade()">Calculate Grade</button>
+                </form>
+
+            </fieldset>
+        </article>
+    </section>
+    <footer>
+        <p>Thank you for visiting my website</p>
+    </footer>
+
+    <script src="js/functions.js"></script>
+</body>
+</html>
